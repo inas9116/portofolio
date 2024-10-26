@@ -2,7 +2,7 @@ const Profile = () => {
   return (
     <div>
       <div className="flex w-full">
-        <div className=" items-center pt-10 rounded-2xl bg-stone-600 w-full">
+        <div className=" items-center pt-10 bg-stone-600 w-full">
           <div>
             <h1 className="text-3xl font-bold flex justify-center pt-4">
               Working For
@@ -19,7 +19,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-1 rounded-lg bg-stone-600">
+      <div className="grid grid-cols-2 gap-1 bg-stone-600">
         <div>
           <h1 className="text-lg font-bold flex justify-center pt-10">PT Gudang Garam Jaya</h1>
           <p className="p-10">
@@ -54,7 +54,7 @@ const Profile = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-1 rounded-lg bg-stone-600">
+      <div className="grid grid-cols-2 gap-1 bg-stone-600">
         <div>
           <h1 className="text-lg font-bold flex justify-center pt-10">
             PT Jaya Jaya Jaya
