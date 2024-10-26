@@ -1,4 +1,5 @@
 const Project = () => {
+  import image1 from '../assets/project1.png'
   return (
     <div>
       <div className="grid grid-cols-1 text-center text-3xl mt-4 font-bold">
@@ -28,7 +29,7 @@ const Project = () => {
           </p>
         </div>
         <div className="rounded-lg mt-10">
-          <img src="src/assets/motifkayu.png"
+          <img src={image1}
           className="rounded-lg"></img>
           <h1 className="text-center text-xl pt-8">Project Tiga</h1>
           <p className="text-center pt-4">
