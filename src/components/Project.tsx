@@ -1,5 +1,5 @@
+import image1 from '../assets/project1.png'
 const Project = () => {
-  import image1 from '../assets/project1.png'
   return (
     <div>
       <div className="grid grid-cols-1 text-center text-3xl mt-4 font-bold">
